@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Billing</title>
+  </head>
+  <body>
+    <div class="page">
+      <h1 class="page__title">Let's Split Our Bill!</h1>
+      <form class="page__form">
+        <h3 class="page__p">💰 Bill </h3>
+        <input class="page__input" id="bill" placeholder="Bill" required>
+
+        <h3 class="page__p">😎 Number of people</h3>
+        <input class="page__input" id="people" placeholder="How many people?"
+          required>
+        <h3 class="page__p">💗Did you like our service?💗</h3>
+        <button class="page__button-tips" type="button">Add a tip! </button>
+        <select class="page__choose-tips">
+          <option value>--Please choose tips--</option>
+          <option value> No tip! 🙅🏻‍♀️ </option>
+          <option value>It was ok! 10% 😺 </option>
+          <option value>Good service! 20% 💜 </option>
+          <option value>WoW! 30% 🫶</option>
+        </select>
+
+
+
+        <button class="page__button-submit" type="submit"> Calculate </button>
+      </form>
+
+      <ul class="page__table">
+        <li class="table_item">
+          0
+          <h4 class="table_item-title">Bill</h4>
+          <p class="table_item-subscription">$ per person</p>
+
+        </li>
+        <li class="table_item">
+          0
+          <h4 class="table_item-title">Tip</h4>
+          <p class="table_item-subscription">$ per person</p>
+
+        </li>
+        <li class="table_item">
+          0
+          <h4 class="table_item-title">Total</h4>
+          <p class="table_item-subscription">$ per person</p>
+
+        </li>
+      </ul>
+
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
