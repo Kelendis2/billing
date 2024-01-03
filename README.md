@@ -1,1 +1,2 @@
-# billing
+# Billing
+STATIC SITE
